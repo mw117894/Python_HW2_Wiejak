@@ -2,7 +2,6 @@ import re
 def countWords(path):
     with open(path, "r") as f:
         text = f.read()
-    f.close()
 
     wordsCount = {}
 
